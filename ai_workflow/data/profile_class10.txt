@@ -1,0 +1,8 @@
+Name: Aarav Sharma
+Stage: Class 10
+Marks: Mathematics 88, Science 82, English 72, Social Science 68.
+Aptitude assessment: Numerical 90, Logical 86, Scientific 80, Practical 76, Creative 48, Verbal 61.
+Interests: technology, engineering, coding, and automation.
+Preferred work style: problem solving, building, and analysis.
+Location: Jammu. Budget: medium. Language: Hindi.
+Goal: Explore engineering and software careers.

@@ -1,0 +1,9 @@
+Student stage: college
+Name: Demo College Student
+Programme: B.Sc Computer Science, second year
+Skills: Python, SQL, statistics, data visualization, beginner machine learning
+Projects:
+1. Campus Placement Insights Dashboard using Python, Pandas, SQL and Power BI
+2. Internship Eligibility Classifier using scikit-learn with evaluation and limitations documented
+Interests: Data & Analytics, Artificial Intelligence, Business Insights, Technology
+Goal: Compare data science, AI/ML, and business analytics pathways and receive a 90-day roadmap.

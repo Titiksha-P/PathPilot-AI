@@ -1,0 +1,140 @@
+{
+  "name": "Demo College Student",
+  "stage": "college",
+  "current_class_or_program": "B.Sc Computer Science student",
+  "stream": "",
+  "marks": {},
+  "aptitude": {},
+  "entrance_readiness": {},
+  "education": [
+    {
+      "qualification": "B.Sc",
+      "field": "Computer Science",
+      "institution": "Demo University",
+      "status": "Second-year student",
+      "evidence": "Coursework includes programming, databases, statistics, and introductory data science."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "evidence": "Used Python and Pandas to clean and analyse student-placement data.",
+      "contexts": [
+        "data analysis",
+        "automation",
+        "machine learning"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "evidence": "Wrote SQL queries for a placement and internship database.",
+      "contexts": [
+        "database",
+        "data analysis",
+        "reporting"
+      ]
+    },
+    {
+      "name": "Statistics",
+      "level": "beginner",
+      "evidence": "Applied descriptive statistics and correlation analysis in coursework.",
+      "contexts": [
+        "statistics",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Data Visualization",
+      "level": "intermediate",
+      "evidence": "Built a Power BI dashboard for placement trends.",
+      "contexts": [
+        "dashboard",
+        "reporting",
+        "business insights"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "beginner",
+      "evidence": "Trained and evaluated a basic classification model for internship eligibility.",
+      "contexts": [
+        "model evaluation",
+        "prediction",
+        "data cleaning"
+      ]
+    },
+    {
+      "name": "Excel/Power BI",
+      "level": "intermediate",
+      "evidence": "Used spreadsheets and Power BI to gather reporting requirements and map a placement-analysis process.",
+      "contexts": [
+        "requirement gathering",
+        "process mapping",
+        "dashboard",
+        "business analysis"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Campus Placement Insights Dashboard",
+      "summary": "A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "SQL",
+        "Power BI"
+      ],
+      "capabilities": [
+        "data analysis",
+        "dashboard",
+        "reporting",
+        "business insights",
+        "data visualization",
+        "requirement gathering",
+        "process mapping"
+      ],
+      "status": "Completed"
+    },
+    {
+      "name": "Internship Eligibility Classifier",
+      "summary": "A beginner machine-learning model with documented evaluation and limitations.",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "Pandas"
+      ],
+      "capabilities": [
+        "machine learning",
+        "prediction",
+        "model evaluation",
+        "data cleaning"
+      ],
+      "status": "Completed"
+    }
+  ],
+  "certifications": [
+    "Python fundamentals course"
+  ],
+  "interests": [
+    "Data & Analytics",
+    "Artificial Intelligence",
+    "Business",
+    "Analytics",
+    "Technology"
+  ],
+  "career_goal": "Choose between data science, AI/ML, and business analytics pathways.",
+  "preferences": {
+    "location": "India",
+    "budget": "medium",
+    "language": "English",
+    "preferred_course_type": "",
+    "work_styles": [
+      "Analysis",
+      "Problem Solving",
+      "Building"
+    ]
+  }
+}

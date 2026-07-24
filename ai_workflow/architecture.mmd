@@ -1,0 +1,29 @@
+flowchart TD
+    A[Student Input] --> B{Education Stage}
+    B -->|Class 10| C[Assessment/Profile Parser]
+    B -->|Class 12| C
+    B -->|College| C
+    C --> D[Normalized StudentProfile]
+    D --> E{Deterministic Python Router}
+    E -->|Class 10| F[Stream Matching]
+    E -->|Class 12| G[Course + Eligibility Matching]
+    E -->|College| H[Portfolio-Evidence Career Matching]
+    F --> I[Top 3 Pathway Selector]
+    G --> I
+    H --> I
+    I --> J[Python Verification]
+    J --> K[Explained Recommendations]
+    K -->|College flow| L[Compare Two Careers]
+    L --> M[Skill-Gap Analysis]
+    M --> N[Personalized 90-Day Roadmap]
+    N --> O[Backend-Ready JSON Contract]
+
+    P[(Shared CSV Career Data + Local Education Pathways)] --> F
+    P --> G
+    P --> H
+    P --> L
+    P --> M
+    P --> N
+
+    note1[Live mode: Gemini/Google ADK is used only for unstructured profile parsing]
+    C -.-> note1
