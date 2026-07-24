@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathpilot.ai/schemas/student-profile.schema.json",
+  "title": "PathPilot Student Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "student_id",
+    "education_level",
+    "preferred_subjects",
+    "interests",
+    "skills",
+    "career_goals",
+    "learning_preferences",
+    "constraints"
+  ],
+  "properties": {
+    "student_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "education_level": {
+      "type": "string",
+      "enum": [
+        "class_9_10",
+        "class_11_12",
+        "undergraduate",
+        "postgraduate",
+        "career_switcher",
+        "other"
+      ]
+    },
+    "preferred_subjects": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "interests": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "level"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string",
+            "enum": ["beginner", "intermediate", "advanced"]
+          },
+          "evidence": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "career_goals": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "learning_preferences": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["weekly_hours", "budget_level", "location_preference"],
+      "properties": {
+        "weekly_hours": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 60
+        },
+        "budget_level": {
+          "type": "string",
+          "enum": ["free_only", "low", "medium", "flexible"]
+        },
+        "location_preference": {
+          "type": "string"
+        },
+        "additional_notes": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}
