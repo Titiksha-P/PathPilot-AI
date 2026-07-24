@@ -1,0 +1,24 @@
+Aryan Shelar — BS Data Science · AI Builder · Microsoft Certified
+
+ABOUT
+BS Data Science student at IIT Madras (Online), building real-world AI systems. Currently developing EDITH — a personal AI assistant using local LLMs, Python automation, and n8n workflows. Microsoft certified in AI agents and Copilot ecosystem.
+
+EDUCATION
+IIT Madras, BS Data Science and Applications, currently enrolled. Coursework: Mathematics, Statistics, Python and Data Science fundamentals.
+B.Tech AI and Data Science, joining September 2026.
+
+SKILLS
+AI Automation, Prompt Engineering, Microsoft Copilot, Generative AI Tools, n8n Workflows, Python.
+
+PROJECTS
+EDITH — Personal AI Assistant (in progress). A local and private JARVIS-style assistant using Python, Ollama, Llama 3.2, n8n, Whisper, Piper TTS, Gmail API and SQLite. Includes voice input/output, email management across three accounts, internship hunting automation, a WhatsApp AI bot with permission controls, and social media cross-posting.
+30 Day Product Thinking Challenge. Daily LinkedIn posts analysing product design problems; one post gained 1,400+ impressions.
+
+CERTIFICATIONS
+Python Essentials 1; Microsoft Get Started with Agents; Build & Manage an Agent; Microsoft 365 Copilot Agents; Share & Use Agents.
+
+INTERESTS
+AI Systems, Data Science, Automation, Product Design, Entrepreneurship, Open Source.
+
+GOAL
+International data science or AI role by 2033 through a masters abroad.

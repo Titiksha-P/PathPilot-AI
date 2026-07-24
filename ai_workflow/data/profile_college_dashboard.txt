@@ -1,0 +1,7 @@
+Name: Demo Dashboard Student
+Stage: College
+Education: B.Com in Business Analytics.
+Skills: SQL used for sales queries; Power BI used for dashboards; Excel used for financial reports; beginner Python and Pandas for cleaning data.
+Project: Retail Sales Dashboard that analysed sales trends and customer segments for management reporting.
+Interests: data science and business.
+Goal: Start as a data analyst.

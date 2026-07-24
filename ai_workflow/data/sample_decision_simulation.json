@@ -1,0 +1,739 @@
+{
+  "profile": {
+    "name": "Demo College Student",
+    "stage": "college",
+    "current_class_or_program": "B.Sc Computer Science student",
+    "stream": "",
+    "marks": {},
+    "aptitude": {},
+    "entrance_readiness": {},
+    "education": [
+      {
+        "qualification": "B.Sc",
+        "field": "Computer Science",
+        "institution": "Demo University",
+        "status": "Second-year student",
+        "evidence": "Coursework includes programming, databases, statistics, and introductory data science."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "intermediate",
+        "evidence": "Used Python and Pandas to clean and analyse student-placement data.",
+        "contexts": [
+          "data analysis",
+          "automation",
+          "machine learning"
+        ]
+      },
+      {
+        "name": "SQL",
+        "level": "intermediate",
+        "evidence": "Wrote SQL queries for a placement and internship database.",
+        "contexts": [
+          "database",
+          "data analysis",
+          "reporting"
+        ]
+      },
+      {
+        "name": "Statistics",
+        "level": "beginner",
+        "evidence": "Applied descriptive statistics and correlation analysis in coursework.",
+        "contexts": [
+          "statistics",
+          "analysis"
+        ]
+      },
+      {
+        "name": "Data Visualization",
+        "level": "intermediate",
+        "evidence": "Built a Power BI dashboard for placement trends.",
+        "contexts": [
+          "dashboard",
+          "reporting",
+          "business insights"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "level": "beginner",
+        "evidence": "Trained and evaluated a basic classification model for internship eligibility.",
+        "contexts": [
+          "model evaluation",
+          "prediction",
+          "data cleaning"
+        ]
+      },
+      {
+        "name": "Excel/Power BI",
+        "level": "intermediate",
+        "evidence": "Used spreadsheets and Power BI to gather reporting requirements and map a placement-analysis process.",
+        "contexts": [
+          "requirement gathering",
+          "process mapping",
+          "dashboard",
+          "business analysis"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Campus Placement Insights Dashboard",
+        "summary": "A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+        "technologies": [
+          "Python",
+          "Pandas",
+          "SQL",
+          "Power BI"
+        ],
+        "capabilities": [
+          "data analysis",
+          "dashboard",
+          "reporting",
+          "business insights",
+          "data visualization",
+          "requirement gathering",
+          "process mapping"
+        ],
+        "status": "Completed"
+      },
+      {
+        "name": "Internship Eligibility Classifier",
+        "summary": "A beginner machine-learning model with documented evaluation and limitations.",
+        "technologies": [
+          "Python",
+          "scikit-learn",
+          "Pandas"
+        ],
+        "capabilities": [
+          "machine learning",
+          "prediction",
+          "model evaluation",
+          "data cleaning"
+        ],
+        "status": "Completed"
+      }
+    ],
+    "certifications": [
+      "Python fundamentals course"
+    ],
+    "interests": [
+      "Data & Analytics",
+      "Artificial Intelligence",
+      "Business",
+      "Analytics",
+      "Technology"
+    ],
+    "career_goal": "Choose between data science, AI/ML, and business analytics pathways.",
+    "preferences": {
+      "location": "India",
+      "budget": "medium",
+      "language": "English",
+      "preferred_course_type": "",
+      "work_styles": [
+        "Analysis",
+        "Problem Solving",
+        "Building"
+      ]
+    }
+  },
+  "recommendations": {
+    "matches": [
+      {
+        "pathway_id": "data_scientist",
+        "pathway_type": "career",
+        "title": "Data Scientist",
+        "rank_role": "best_fit",
+        "score": 96,
+        "reasons": [
+          "Demonstrated relevant skills: Python, SQL, Statistics, Machine Learning",
+          "Portfolio aligns with: Python, SQL, Statistics",
+          "Interests align with: Data & Analytics, Data, Analytics",
+          "Education aligns with: B.Tech/B.Sc in CS, Statistics, or Maths, B.Sc in CS"
+        ],
+        "evidence": [
+          "Project: Campus Placement Insights Dashboard \u2014 A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+          "Project: Internship Eligibility Classifier \u2014 A beginner machine-learning model with documented evaluation and limitations.",
+          "Skill evidence: Python \u2014 Used Python and Pandas to clean and analyse student-placement data.",
+          "Skill evidence: SQL \u2014 Wrote SQL queries for a placement and internship database."
+        ],
+        "matched_attributes": [
+          "Python",
+          "SQL",
+          "Statistics",
+          "Machine Learning",
+          "Data Visualization (Power BI/Tableau)",
+          "Python",
+          "SQL",
+          "Statistics",
+          "Machine Learning",
+          "Data Visualization (Power BI/Tableau)",
+          "Data & Analytics",
+          "Data",
+          "Analytics",
+          "B.Tech/B.Sc in CS, Statistics, or Maths",
+          "B.Sc in CS",
+          "B.Sc Statistics"
+        ],
+        "eligibility_status": "eligible",
+        "eligibility_reasons": [
+          "Portfolio contains at least one relevant skill or education signal"
+        ],
+        "missing_requirements": [],
+        "risks_tradeoffs": [
+          "Minimum qualification in dataset: B.Tech/B.Sc in CS, Statistics, or Maths",
+          "Entrance/qualifying exams in dataset: JEE Main (UG), CUET/university PGCET (PG)"
+        ],
+        "estimated_duration": "Not specified in the supplied career dataset",
+        "cost_category": "Not specified in the supplied career dataset",
+        "next_actions": [
+          "Build evidence for the core skills: Python, SQL, Statistics, Machine Learning",
+          "Review relevant study routes: B.Tech CSE/IT, B.Sc Statistics, M.Sc Data Science",
+          "Start with the dataset resources: Coursera (Andrew Ng ML), Kaggle, freeCodeCamp",
+          "Check applicable entrance or qualifying exams: JEE Main (UG), CUET/university PGCET (PG)"
+        ],
+        "related_outcomes": [
+          "Data & Analytics",
+          "Data Analyst",
+          "Data Scientist",
+          "BI Analyst"
+        ]
+      },
+      {
+        "pathway_id": "business_analyst",
+        "pathway_type": "career",
+        "title": "Business Analyst",
+        "rank_role": "strong_alternative",
+        "score": 78,
+        "reasons": [
+          "Demonstrated relevant skills: SQL, Excel/Power BI, requirement gathering, process mapping",
+          "Portfolio aligns with: SQL, requirement gathering, process mapping",
+          "Interests align with: Business & Analytics, Business, Analytics"
+        ],
+        "evidence": [
+          "Project: Campus Placement Insights Dashboard \u2014 A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+          "Skill evidence: SQL \u2014 Wrote SQL queries for a placement and internship database.",
+          "Skill evidence: Excel/Power BI \u2014 Used spreadsheets and Power BI to gather reporting requirements and map a placement-analysis process."
+        ],
+        "matched_attributes": [
+          "SQL",
+          "Excel/Power BI",
+          "requirement gathering",
+          "process mapping",
+          "SQL",
+          "requirement gathering",
+          "process mapping",
+          "Business & Analytics",
+          "Business",
+          "Analytics",
+          "Business Analyst"
+        ],
+        "eligibility_status": "eligible",
+        "eligibility_reasons": [
+          "Portfolio contains at least one relevant skill or education signal"
+        ],
+        "missing_requirements": [],
+        "risks_tradeoffs": [
+          "Minimum qualification in dataset: B.Tech/BBA/B.Com",
+          "Entrance/qualifying exams in dataset: CAT, CUET"
+        ],
+        "estimated_duration": "Not specified in the supplied career dataset",
+        "cost_category": "Not specified in the supplied career dataset",
+        "next_actions": [
+          "Build evidence for the core skills: SQL, Excel/Power BI, requirement gathering, process mapping",
+          "Review relevant study routes: B.Tech, BBA, MBA (Business Analytics)",
+          "Start with the dataset resources: Coursera Business Analytics, Udemy SQL/Excel courses",
+          "Check applicable entrance or qualifying exams: CAT, CUET"
+        ],
+        "related_outcomes": [
+          "Business & Analytics",
+          "Business Analyst",
+          "Data Analyst",
+          "Product Analyst"
+        ]
+      },
+      {
+        "pathway_id": "prompt_engineer_genai_specialist",
+        "pathway_type": "career",
+        "title": "Prompt Engineer / GenAI Specialist",
+        "rank_role": "safe_backup",
+        "score": 48,
+        "reasons": [
+          "Demonstrated relevant skills: Python basics, workflow automation",
+          "Portfolio aligns with: workflow automation",
+          "Interests align with: Artificial Intelligence",
+          "Education aligns with: B.Tech/BCA/B.Sc any stream, B.Sc any stream"
+        ],
+        "evidence": [
+          "Project: Campus Placement Insights Dashboard \u2014 A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+          "Project: Internship Eligibility Classifier \u2014 A beginner machine-learning model with documented evaluation and limitations."
+        ],
+        "matched_attributes": [
+          "Python basics",
+          "workflow automation",
+          "workflow automation",
+          "Artificial Intelligence",
+          "B.Tech/BCA/B.Sc any stream",
+          "B.Sc any stream"
+        ],
+        "eligibility_status": "eligible",
+        "eligibility_reasons": [
+          "Portfolio contains at least one relevant skill or education signal"
+        ],
+        "missing_requirements": [
+          "Prompt design",
+          "LLM APIs (OpenAI/Anthropic)"
+        ],
+        "risks_tradeoffs": [
+          "Minimum qualification in dataset: Any graduate, tech background preferred",
+          "Entrance/qualifying exams in dataset: Not exam-gated, portfolio based"
+        ],
+        "estimated_duration": "Not specified in the supplied career dataset",
+        "cost_category": "Not specified in the supplied career dataset",
+        "next_actions": [
+          "Build evidence for the core skills: Prompt design, LLM APIs (OpenAI/Anthropic), Python basics, workflow automation",
+          "Review relevant study routes: B.Tech/BCA/B.Sc any stream",
+          "Start with the dataset resources: Anthropic docs, OpenAI cookbook, DeepLearning.AI short courses"
+        ],
+        "related_outcomes": [
+          "Artificial Intelligence",
+          "Prompt Engineer",
+          "AI Workflow Designer",
+          "GenAI Consultant"
+        ]
+      }
+    ]
+  },
+  "comparison": {
+    "career_1": {
+      "career_id": "data_scientist",
+      "title": "Data Scientist",
+      "match_score": 96,
+      "matched_skills": [
+        "Python",
+        "SQL",
+        "Statistics",
+        "Machine Learning",
+        "Data Visualization (Power BI/Tableau)"
+      ],
+      "missing_skills": [],
+      "supporting_evidence": [
+        "Project: Campus Placement Insights Dashboard \u2014 A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+        "Project: Internship Eligibility Classifier \u2014 A beginner machine-learning model with documented evaluation and limitations.",
+        "Skill evidence: Python \u2014 Used Python and Pandas to clean and analyse student-placement data.",
+        "Skill evidence: SQL \u2014 Wrote SQL queries for a placement and internship database."
+      ],
+      "estimated_learning_time": "Not specified in the supplied career dataset",
+      "cost_category": "Not specified in the supplied career dataset",
+      "salary_range": "6-18 LPA (fresher-mid)",
+      "future_scope": "Every sector now runs on data-driven decisions; hiring hasn't slowed down",
+      "minimum_qualification": "B.Tech/B.Sc in CS, Statistics, or Maths",
+      "certifications": [
+        "Google Data Analytics Cert",
+        "IBM Data Science Cert",
+        "Microsoft Certified: Azure Data Scientist"
+      ],
+      "relevant_courses": [
+        "B.Tech CSE/IT",
+        "B.Sc Statistics",
+        "M.Sc Data Science"
+      ],
+      "entrance_exams": [
+        "JEE Main (UG)",
+        "CUET/university PGCET (PG)"
+      ],
+      "common_job_roles": [
+        "Data Analyst",
+        "Data Scientist",
+        "BI Analyst"
+      ],
+      "learning_resources": [
+        "Coursera (Andrew Ng ML)",
+        "Kaggle",
+        "freeCodeCamp",
+        "DataCamp"
+      ],
+      "data_source": "career_dataset.csv",
+      "risks_tradeoffs": [
+        "Minimum qualification in dataset: B.Tech/B.Sc in CS, Statistics, or Maths",
+        "Entrance/qualifying exams in dataset: JEE Main (UG), CUET/university PGCET (PG)"
+      ]
+    },
+    "career_2": {
+      "career_id": "business_analyst",
+      "title": "Business Analyst",
+      "match_score": 78,
+      "matched_skills": [
+        "SQL",
+        "Excel/Power BI",
+        "requirement gathering",
+        "process mapping"
+      ],
+      "missing_skills": [],
+      "supporting_evidence": [
+        "Project: Campus Placement Insights Dashboard \u2014 A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+        "Skill evidence: SQL \u2014 Wrote SQL queries for a placement and internship database.",
+        "Skill evidence: Excel/Power BI \u2014 Used spreadsheets and Power BI to gather reporting requirements and map a placement-analysis process."
+      ],
+      "estimated_learning_time": "Not specified in the supplied career dataset",
+      "cost_category": "Not specified in the supplied career dataset",
+      "salary_range": "6-15 LPA",
+      "future_scope": "Every mid-large company now hires analysts to bridge data and strategy",
+      "minimum_qualification": "B.Tech/BBA/B.Com",
+      "certifications": [
+        "CBAP (experienced)",
+        "Power BI Data Analyst Associate (PL-300)"
+      ],
+      "relevant_courses": [
+        "B.Tech",
+        "BBA",
+        "MBA (Business Analytics)"
+      ],
+      "entrance_exams": [
+        "CAT",
+        "CUET"
+      ],
+      "common_job_roles": [
+        "Business Analyst",
+        "Data Analyst",
+        "Product Analyst"
+      ],
+      "learning_resources": [
+        "Coursera Business Analytics",
+        "Udemy SQL/Excel courses"
+      ],
+      "data_source": "career_dataset.csv",
+      "risks_tradeoffs": [
+        "Minimum qualification in dataset: B.Tech/BBA/B.Com",
+        "Entrance/qualifying exams in dataset: CAT, CUET"
+      ]
+    },
+    "better_fit_career_id": "data_scientist",
+    "recommendation_reason": "Data Scientist is the stronger current fit because it scores 96% against 78% and requires fewer or comparable skill gaps. This is a profile-fit recommendation, not a guarantee of admission or employment.",
+    "decision_factors": [
+      "Match-score difference: 18 points",
+      "Data Scientist: 5 matched and 0 missing required skills",
+      "Business Analyst: 4 matched and 0 missing required skills",
+      "Learning-time comparison: Not specified in the supplied career dataset versus Not specified in the supplied career dataset",
+      "Cost comparison: Not specified in the supplied career dataset versus Not specified in the supplied career dataset"
+    ]
+  },
+  "skill_gap_analysis": {
+    "career_id": "data_scientist",
+    "career_title": "Data Scientist",
+    "readiness_score": 96,
+    "matched_skills": [
+      "Python",
+      "SQL",
+      "Statistics",
+      "Machine Learning",
+      "Data Visualization (Power BI/Tableau)"
+    ],
+    "gaps": [],
+    "strengths_to_use": [
+      "Python",
+      "SQL",
+      "Statistics",
+      "Machine Learning",
+      "Data Visualization (Power BI/Tableau)",
+      "Data & Analytics"
+    ]
+  },
+  "roadmap_90_days": {
+    "career_id": "data_scientist",
+    "career_title": "Data Scientist",
+    "starting_readiness_score": 96,
+    "target_outcome": "Evidence-ready beginner profile for the next Data Scientist learning, internship, or project opportunity.",
+    "phases": [
+      {
+        "phase_id": "foundations",
+        "day_range": "Days 1\u201330",
+        "focus": "Build foundations in Python, SQL, Statistics.",
+        "tasks": [
+          {
+            "title": "Learn Python fundamentals",
+            "objective": "Close the highest-priority gap for Data Scientist.",
+            "actions": [
+              "Study the core concepts and terminology of Python.",
+              "Complete at least three hands-on exercises using Python.",
+              "Record mistakes, corrections, and evidence of progress in a learning log."
+            ],
+            "deliverable": "A reviewed fundamentals notebook or mini-demo proving basic Python ability.",
+            "related_skills": [
+              "Python"
+            ]
+          },
+          {
+            "title": "Connect new learning to existing strengths",
+            "objective": "Reuse evidence from Campus Placement Insights Dashboard instead of starting from zero.",
+            "actions": [
+              "List the current skills and project evidence that transfer to this career.",
+              "Add one small feature that combines an existing strength with Python."
+            ],
+            "deliverable": "A one-page skill map linking existing evidence to the target career.",
+            "related_skills": [
+              "Python",
+              "SQL",
+              "Statistics"
+            ]
+          }
+        ],
+        "success_check": "Explain the basics of Python and show one working artifact without unsupported claims."
+      },
+      {
+        "phase_id": "applied_project",
+        "day_range": "Days 31\u201360",
+        "focus": "Apply Python, SQL, Statistics in one evidence-based project.",
+        "tasks": [
+          {
+            "title": "Build a Data Scientist portfolio project",
+            "objective": "Convert learning into demonstrable portfolio evidence.",
+            "actions": [
+              "Build evidence for the core skills: Python, SQL, Statistics, Machine Learning",
+              "Include at least one measurable use of Python.",
+              "Add input validation, failure handling, and a short test checklist."
+            ],
+            "deliverable": "A working project repository with README, screenshots or output, and test evidence.",
+            "related_skills": [
+              "Python",
+              "SQL",
+              "Statistics"
+            ]
+          },
+          {
+            "title": "Evaluate the project against career requirements",
+            "objective": "Check whether the project proves the required skills rather than only mentioning them.",
+            "actions": [
+              "Map each required career skill to a concrete project file, feature, or result.",
+              "Identify one remaining weak skill and improve the project to address it."
+            ],
+            "deliverable": "A requirement-to-evidence checklist with no invented experience.",
+            "related_skills": [
+              "Python",
+              "SQL",
+              "Statistics",
+              "Machine Learning",
+              "Data Visualization (Power BI/Tableau)"
+            ]
+          }
+        ],
+        "success_check": "A reviewer can run or inspect the project and find evidence for the mapped skills."
+      },
+      {
+        "phase_id": "portfolio_readiness",
+        "day_range": "Days 61\u201390",
+        "focus": "Package evidence, validate readiness, and prepare the next application or education step.",
+        "tasks": [
+          {
+            "title": "Create the final portfolio case study",
+            "objective": "Explain the problem, decisions, implementation, evidence, limitations, and outcome.",
+            "actions": [
+              "Write a concise case study using the completed project.",
+              "Add a skills section that links every claim to evidence.",
+              "Document limitations, risks, and the next technical improvement."
+            ],
+            "deliverable": "A publishable portfolio case study and updated resume/project section.",
+            "related_skills": [
+              "Python",
+              "SQL",
+              "Statistics",
+              "Machine Learning",
+              "Data Visualization (Power BI/Tableau)",
+              "Python",
+              "SQL",
+              "Statistics"
+            ]
+          },
+          {
+            "title": "Run a readiness review",
+            "objective": "Test readiness for the next Data Scientist opportunity.",
+            "actions": [
+              "Repeat the career match using the updated profile evidence.",
+              "Practice explaining the project and three technical decisions.",
+              "Choose one verified next step from the career dataset or backend-provided resources."
+            ],
+            "deliverable": "A final readiness score, remaining-gap list, and next 30-day action decision.",
+            "related_skills": [
+              "SQL",
+              "Statistics"
+            ]
+          }
+        ],
+        "success_check": "The profile contains a tested project, an evidence-backed case study, and an updated remaining-gap list."
+      }
+    ]
+  },
+  "verification": {
+    "approved": true,
+    "issues": [],
+    "final_recommendations": {
+      "matches": [
+        {
+          "pathway_id": "data_scientist",
+          "pathway_type": "career",
+          "title": "Data Scientist",
+          "rank_role": "best_fit",
+          "score": 96,
+          "reasons": [
+            "Demonstrated relevant skills: Python, SQL, Statistics, Machine Learning",
+            "Portfolio aligns with: Python, SQL, Statistics",
+            "Interests align with: Data & Analytics, Data, Analytics",
+            "Education aligns with: B.Tech/B.Sc in CS, Statistics, or Maths, B.Sc in CS"
+          ],
+          "evidence": [
+            "Project: Campus Placement Insights Dashboard \u2014 A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+            "Project: Internship Eligibility Classifier \u2014 A beginner machine-learning model with documented evaluation and limitations.",
+            "Skill evidence: Python \u2014 Used Python and Pandas to clean and analyse student-placement data.",
+            "Skill evidence: SQL \u2014 Wrote SQL queries for a placement and internship database."
+          ],
+          "matched_attributes": [
+            "Python",
+            "SQL",
+            "Statistics",
+            "Machine Learning",
+            "Data Visualization (Power BI/Tableau)",
+            "Python",
+            "SQL",
+            "Statistics",
+            "Machine Learning",
+            "Data Visualization (Power BI/Tableau)",
+            "Data & Analytics",
+            "Data",
+            "Analytics",
+            "B.Tech/B.Sc in CS, Statistics, or Maths",
+            "B.Sc in CS",
+            "B.Sc Statistics"
+          ],
+          "eligibility_status": "eligible",
+          "eligibility_reasons": [
+            "Portfolio contains at least one relevant skill or education signal"
+          ],
+          "missing_requirements": [],
+          "risks_tradeoffs": [
+            "Minimum qualification in dataset: B.Tech/B.Sc in CS, Statistics, or Maths",
+            "Entrance/qualifying exams in dataset: JEE Main (UG), CUET/university PGCET (PG)"
+          ],
+          "estimated_duration": "Not specified in the supplied career dataset",
+          "cost_category": "Not specified in the supplied career dataset",
+          "next_actions": [
+            "Build evidence for the core skills: Python, SQL, Statistics, Machine Learning",
+            "Review relevant study routes: B.Tech CSE/IT, B.Sc Statistics, M.Sc Data Science",
+            "Start with the dataset resources: Coursera (Andrew Ng ML), Kaggle, freeCodeCamp",
+            "Check applicable entrance or qualifying exams: JEE Main (UG), CUET/university PGCET (PG)"
+          ],
+          "related_outcomes": [
+            "Data & Analytics",
+            "Data Analyst",
+            "Data Scientist",
+            "BI Analyst"
+          ]
+        },
+        {
+          "pathway_id": "business_analyst",
+          "pathway_type": "career",
+          "title": "Business Analyst",
+          "rank_role": "strong_alternative",
+          "score": 78,
+          "reasons": [
+            "Demonstrated relevant skills: SQL, Excel/Power BI, requirement gathering, process mapping",
+            "Portfolio aligns with: SQL, requirement gathering, process mapping",
+            "Interests align with: Business & Analytics, Business, Analytics"
+          ],
+          "evidence": [
+            "Project: Campus Placement Insights Dashboard \u2014 A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+            "Skill evidence: SQL \u2014 Wrote SQL queries for a placement and internship database.",
+            "Skill evidence: Excel/Power BI \u2014 Used spreadsheets and Power BI to gather reporting requirements and map a placement-analysis process."
+          ],
+          "matched_attributes": [
+            "SQL",
+            "Excel/Power BI",
+            "requirement gathering",
+            "process mapping",
+            "SQL",
+            "requirement gathering",
+            "process mapping",
+            "Business & Analytics",
+            "Business",
+            "Analytics",
+            "Business Analyst"
+          ],
+          "eligibility_status": "eligible",
+          "eligibility_reasons": [
+            "Portfolio contains at least one relevant skill or education signal"
+          ],
+          "missing_requirements": [],
+          "risks_tradeoffs": [
+            "Minimum qualification in dataset: B.Tech/BBA/B.Com",
+            "Entrance/qualifying exams in dataset: CAT, CUET"
+          ],
+          "estimated_duration": "Not specified in the supplied career dataset",
+          "cost_category": "Not specified in the supplied career dataset",
+          "next_actions": [
+            "Build evidence for the core skills: SQL, Excel/Power BI, requirement gathering, process mapping",
+            "Review relevant study routes: B.Tech, BBA, MBA (Business Analytics)",
+            "Start with the dataset resources: Coursera Business Analytics, Udemy SQL/Excel courses",
+            "Check applicable entrance or qualifying exams: CAT, CUET"
+          ],
+          "related_outcomes": [
+            "Business & Analytics",
+            "Business Analyst",
+            "Data Analyst",
+            "Product Analyst"
+          ]
+        },
+        {
+          "pathway_id": "prompt_engineer_genai_specialist",
+          "pathway_type": "career",
+          "title": "Prompt Engineer / GenAI Specialist",
+          "rank_role": "safe_backup",
+          "score": 48,
+          "reasons": [
+            "Demonstrated relevant skills: Python basics, workflow automation",
+            "Portfolio aligns with: workflow automation",
+            "Interests align with: Artificial Intelligence",
+            "Education aligns with: B.Tech/BCA/B.Sc any stream, B.Sc any stream"
+          ],
+          "evidence": [
+            "Project: Campus Placement Insights Dashboard \u2014 A Python, SQL, and Power BI project analysing placement patterns and student skill trends.",
+            "Project: Internship Eligibility Classifier \u2014 A beginner machine-learning model with documented evaluation and limitations."
+          ],
+          "matched_attributes": [
+            "Python basics",
+            "workflow automation",
+            "workflow automation",
+            "Artificial Intelligence",
+            "B.Tech/BCA/B.Sc any stream",
+            "B.Sc any stream"
+          ],
+          "eligibility_status": "eligible",
+          "eligibility_reasons": [
+            "Portfolio contains at least one relevant skill or education signal"
+          ],
+          "missing_requirements": [
+            "Prompt design",
+            "LLM APIs (OpenAI/Anthropic)"
+          ],
+          "risks_tradeoffs": [
+            "Minimum qualification in dataset: Any graduate, tech background preferred",
+            "Entrance/qualifying exams in dataset: Not exam-gated, portfolio based"
+          ],
+          "estimated_duration": "Not specified in the supplied career dataset",
+          "cost_category": "Not specified in the supplied career dataset",
+          "next_actions": [
+            "Build evidence for the core skills: Prompt design, LLM APIs (OpenAI/Anthropic), Python basics, workflow automation",
+            "Review relevant study routes: B.Tech/BCA/B.Sc any stream",
+            "Start with the dataset resources: Anthropic docs, OpenAI cookbook, DeepLearning.AI short courses"
+          ],
+          "related_outcomes": [
+            "Artificial Intelligence",
+            "Prompt Engineer",
+            "AI Workflow Designer",
+            "GenAI Consultant"
+          ]
+        }
+      ]
+    }
+  }
+}

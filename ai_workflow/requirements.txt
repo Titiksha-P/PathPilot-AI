@@ -1,0 +1,4 @@
+google-adk>=2.5,<3
+pydantic>=2.10,<3
+python-dotenv>=1.0,<2
+pytest>=8,<10
