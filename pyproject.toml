@@ -1,0 +1,8 @@
+[project]
+name = "pathpilot-product-intelligence"
+version = "0.1.0"
+description = "Deterministic product intelligence and shared integration contracts for PathPilot AI."
+requires-python = ">=3.10"
+
+[tool.unittest]
+start-directory = "tests"
