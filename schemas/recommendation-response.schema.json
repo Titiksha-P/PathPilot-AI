@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathpilot.ai/schemas/recommendation-response.schema.json",
+  "title": "PathPilot Recommendation Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "student_id",
+    "profile_confidence",
+    "recommendations",
+    "comparison_ready",
+    "warnings"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "student_id": {
+      "type": "string"
+    },
+    "profile_confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "recommendations": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "career_id",
+          "career_name",
+          "match_score",
+          "confidence",
+          "score_breakdown",
+          "reasons",
+          "matched_skills",
+          "skill_gaps",
+          "next_steps",
+          "roadmap"
+        ],
+        "properties": {
+          "career_id": {
+            "type": "string"
+          },
+          "career_name": {
+            "type": "string"
+          },
+          "match_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["low", "medium", "high"]
+          },
+          "score_breakdown": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "interest_alignment",
+              "skill_alignment",
+              "subject_alignment",
+              "education_compatibility",
+              "career_goal_alignment",
+              "learning_preference_fit",
+              "constraint_compatibility"
+            ],
+            "properties": {
+              "interest_alignment": {"type": "number", "minimum": 0, "maximum": 100},
+              "skill_alignment": {"type": "number", "minimum": 0, "maximum": 100},
+              "subject_alignment": {"type": "number", "minimum": 0, "maximum": 100},
+              "education_compatibility": {"type": "number", "minimum": 0, "maximum": 100},
+              "career_goal_alignment": {"type": "number", "minimum": 0, "maximum": 100},
+              "learning_preference_fit": {"type": "number", "minimum": 0, "maximum": 100},
+              "constraint_compatibility": {"type": "number", "minimum": 0, "maximum": 100}
+            }
+          },
+          "reasons": {
+            "type": "array",
+            "minItems": 3,
+            "items": {"type": "string"}
+          },
+          "limitations": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "matched_skills": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "skill_gaps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["skill", "classification", "why_it_matters", "estimated_effort_hours"],
+              "properties": {
+                "skill": {"type": "string"},
+                "classification": {
+                  "type": "string",
+                  "enum": ["partial", "missing_essential", "missing_optional"]
+                },
+                "why_it_matters": {"type": "string"},
+                "estimated_effort_hours": {"type": "integer", "minimum": 1}
+              }
+            }
+          },
+          "recommended_courses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["title", "resource_type"],
+              "properties": {
+                "title": {"type": "string"},
+                "resource_type": {"type": "string"},
+                "url": {"type": ["string", "null"], "format": "uri"}
+              }
+            }
+          },
+          "next_steps": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string"}
+          },
+          "roadmap": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["days_1_30", "days_31_60", "days_61_90"],
+            "properties": {
+              "days_1_30": {"$ref": "#/$defs/roadmapPhase"},
+              "days_31_60": {"$ref": "#/$defs/roadmapPhase"},
+              "days_61_90": {"$ref": "#/$defs/roadmapPhase"}
+            }
+          }
+        }
+      }
+    },
+    "comparison_ready": {
+      "type": "boolean"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "$defs": {
+    "roadmapPhase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["objective", "actions", "weekly_effort_hours", "evidence_of_completion", "milestone"],
+      "properties": {
+        "objective": {"type": "string"},
+        "actions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string"}
+        },
+        "weekly_effort_hours": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 40
+        },
+        "evidence_of_completion": {"type": "string"},
+        "milestone": {"type": "string"}
+      }
+    }
+  }
+}
